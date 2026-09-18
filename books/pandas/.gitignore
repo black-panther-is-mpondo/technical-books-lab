@@ -1,0 +1,9 @@
+@"
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+"@ | Set-Content books\pandas\.gitignore
